@@ -7,8 +7,8 @@ public class Main {
         double interestRateTwo = interestBalance * .17;
         double interestBalanceTwo = interestBalance + interestRateTwo;
 
-        System.out.println("After the first month, you have " + interestBalance);
-        System.out.println("After the second month, you have " + interestBalanceTwo);
+        System.out.println("After the first month, you have $" + interestBalance);
+        System.out.println("After the second month, you have $" + interestBalanceTwo);
 
 
     }
