@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args)
     {
-        double balance = 5000;
-        double interestRateOne = balance * .17;
-        double interestBalance = balance + interestRateOne;
-        double interestRateTwo = interestBalance * .17;
-        double interestBalanceTwo = interestBalance + interestRateTwo;
+        int springCost = 500;
+        int summerCost = 700;
+        int fallCost = 600;
+        int winterCost = 300;
+        int totalCost = springCost + summerCost + fallCost + winterCost;
 
-        System.out.println("After the first month, you have $" + interestBalance);
-        System.out.println("After the second month, you have $" + interestBalanceTwo);
-
+        System.out.println("The spring cost $" + springCost + ", the summer cost $" + summerCost + ", the fall cost $" + fallCost + ", and the winter cost $" + winterCost + " comes to a total of $" + totalCost);
 
     }
 }
